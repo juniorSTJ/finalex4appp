@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cine_graph"
+    app:startDestination="@id/cine_listFragment">
+
+    <fragment
+        android:id="@+id/cine_listFragment"
+        android:name="com.junior.EXC2.ui.fragments.cine_listFragment"
+        android:label="fragment_cine_list"
+        tools:layout="@layout/fragment_cine_list" >
+        <action
+            android:id="@+id/action_cine_listFragment_to_cinenote_details"
+            app:destination="@id/cinenote_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/cinfavoriteFragment"
+        android:name="com.junior.EXC2.ui.fragments.cinfavoriteFragment"
+        android:label="fragment_cinfavorite"
+        tools:layout="@layout/fragment_cinfavorite" >
+        <action
+            android:id="@+id/action_cinfavoriteFragment_to_cinenote_details"
+            app:destination="@id/cinenote_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.junior.EXC2.ui.fragments.infoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/cinenote_details"
+        android:name="com.junior.EXC2.ui.fragments.cinenote_details"
+        android:label="fragment_cinenote_details"
+        tools:layout="@layout/fragment_cinenote_details" >
+        <argument
+            android:name="cinenote"
+            app:argType="com.junior.EXC2.model.Cinenote" />
+    </fragment>
+</navigation>

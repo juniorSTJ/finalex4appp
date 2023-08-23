@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.infoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Informacion de la app" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="394dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="33dp"
+        android:text="Mi nombre es Junior jandy santiago Arias\n
+        Esta app es un proyecto dedica a un cine con un login con\n
+        con las respectivas validaciones ademas esta integrando\n
+        un menu donde mostra en lista, una cierta lista de apis de\n
+        internet en este caso escogi de pokemon."
+        android:textSize="14sp" />
+
+
+</FrameLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logodeapp"
+        android:label="EXC2"
+        android:roundIcon="@mipmap/ic_logodeapp_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnotaFacil"
+        tools:targetApi="31">
+        <activity
+            android:name="com.junior.EXC2.ui.AddAddresActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.junior.EXC2.ui.AddNoteActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_note"
+            android:theme="@style/Theme.AnotaFacil" />
+        <activity
+            android:name="com.junior.EXC2.ui.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.junior.EXC2.ui.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.junior.EXC2.ui.MainActivity"
+            android:exported="true" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/API_KEY"/>
+    </application>
+
+</manifest>

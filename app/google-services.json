@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "586301768118",
+    "project_id": "anotafacil-5a094",
+    "storage_bucket": "anotafacil-5a094.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586301768118:android:9f754459767438377e4117",
+        "android_client_info": {
+          "package_name": "com.junior.EXC2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586301768118-04oiet28a5ipegs2cd9uengbg6j3m59i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.junior.EXC2",
+            "certificate_hash": "ba82822806f4c831739ceef217b611b5d45b528b"
+          }
+        },
+        {
+          "client_id": "586301768118-galsk57pqdj1dvdc3uev52os89pnc1mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZjz5BTSanElQBXVJHxTDJYJdnFkCnGtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586301768118-galsk57pqdj1dvdc3uev52os89pnc1mt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
